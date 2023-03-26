@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "manrope", sans-serif;
+    font-size: 1em;
+    line-height: 1.25em;
+    background-color: #fffae7;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3em;
+    margin: 1em 0;
+}
+
+h3 {
+    margin-bottom: 1.25em;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#wrapper {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fee3cb;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px #7f5c3d;
+}
+
+.card img {
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.card a {
+    display: block;
+    padding: 6px;
+    text-align: center;
+    background-color: #EDC72D;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    font-family: "manrope", sans-serif;
+}
+
+nav {
+    background-color: #F1A15D;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: .5em;
+    align-items: center;
+    font-family: "manrope", sans-serif;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover {
+    padding: 1em 0.25em;
+    background-color: #EDC13C;
+}
+
+nav a:visited {
+    color: #000;
+}
+
+li.logo {
+    margin-right: auto;
+}
+
+.description {
+    margin: 20px 70px;
+}
+
+main.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+div.card {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+div.card a {
+    margin-top: auto;
+}
+
+.satPhoto {
+    border: 4mm ridge #9699ae;
+    display: block;
+    margin: 0 auto 2em auto;
+}
+
+.chickDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; 
+    align-items: center;
+}
+
+.chickDiv img {
+    height: 250px;
+    max-width: 100%;
+    border: 4mm ridge #9699ae;
+    justify-self: center;
+}
+
+.rojDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rojDiv figure img {
+    height: 250px;
+    flex: 1;
+    margin: 10px;
+    border: 4mm ridge #9699ae;
+}
+
+.rojDiv figure figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+.indPhoto {
+    height: 200px;
+    border: 4mm ridge #9699ae;
+    text-align: center;
+    display: block;
+    margin: 0 auto 10px auto;
+}
