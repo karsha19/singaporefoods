@@ -1,5 +1,5 @@
 # Singapore Foods Website
 
 
-Uses HTML and CSS
+This static project uses HTML & CSS.
 https://anika-tan.github.io/singaporefoods/
