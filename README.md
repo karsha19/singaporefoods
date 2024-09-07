@@ -1,5 +1,5 @@
 # Singapore Foods Website
 
 
-Uses HTML and CSS
+This repo uses HTML and CSS
 https://anika-tan.github.io/singaporefoods/
